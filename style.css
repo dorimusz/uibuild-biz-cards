@@ -67,7 +67,7 @@ span {
     max-width: 150px;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 990px) {
     #div {
         display: flex;
         align-items: flex-start;
@@ -79,6 +79,7 @@ span {
 
     div.cardHolder {
         flex-direction: column;
+        column-gap: 62px;
         padding-bottom: 62px;
     }
 }
