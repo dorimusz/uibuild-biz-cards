@@ -72,12 +72,13 @@ span {
         display: flex;
         align-items: flex-start;
         margin-top:62px;
-        margin-bottom:62px;
         justify-content: center;
         height: 100vh;
+        
     }
 
     div.cardHolder {
         flex-direction: column;
+        padding-bottom: 62px;
     }
 }
