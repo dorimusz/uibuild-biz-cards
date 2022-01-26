@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+    text-decoration: none;
+  }
+
+body {
+    background-color: #ffeedf;
+}
+
+#div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div.cardHolder {
+    display: flex;
+    gap: 62px;
+}
+
+
+div.card {
+    width: 290px;
+    height: 416px;
+
+    padding: 27px;
+
+    background-color: #fff;
+}
+
+h2.names {
+    color: #33793f;
+    font-size: 48px;
+    font-family:'EB Garamond', serif;
+    font-weight: 400;
+    max-width: 200px;
+}
+
+h6.restaurantName {
+    color: #999;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 20px 0 15px;
+}
+
+p.address {
+    color: #999;
+    font-size: 24px;
+    font-family:'EB Garamond', serif;
+    font-weight: normal;
+    padding: 25px 0;
+}
+
+span {
+    display: block;
+    padding-top: 25px;
+    max-width: 150px;
+}
+
+
+
+@media screen and (max-width: 460px) {
+    #div {
+        display: flex;
+        align-items: flex-start;
+        margin-top:62px;
+        margin-bottom:62px;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    div.cardHolder {
+        flex-direction: column;
+    }
+}
